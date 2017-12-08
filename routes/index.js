@@ -7,7 +7,7 @@ router.get('/', function(req, res, next) {
 });
 
 router.post('/', function(req, res, next) {
-    res.render('index', { title: 'Institute Mob-ops' });
+
     var mysql = require('mysql');
 
     var con = mysql.createConnection({
